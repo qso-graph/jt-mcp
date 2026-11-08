@@ -9,11 +9,11 @@ UDP Server address; jt-mcp listens there and answers: who is calling CQ, and wha
 recent decodes and WSPR spots.
 
 **Read-only, permanently.** jt-mcp never sends WSJT-X a message, so it cannot answer a call,
-key your transmitter or change a setting. No write, no PTT, no transmit control — a permanent
+key your transmitter or change a setting. No write, no PTT, no transmit control—a permanent
 constraint, not a first-version limit. The tests assert it against the source.
 
 **WSJT-X first, and WSJT-X defines the protocol.** The UDP message definitions come from the
-WSJT-X project — `Network/NetworkMessage.hpp`, at the schema WSJT-X states — because the project
+WSJT-X project—`Network/NetworkMessage.hpp`, at the schema WSJT-X states—because the project
 that owns a definition is its authority. The code is
 [qso-graph-lib](https://github.com/qso-graph/qso-graph-lib)'s, the same that
 [qso-graph-sim](https://github.com/qso-graph/qso-graph-sim) plays WSJT-X's messages with. JTDX,
@@ -62,7 +62,7 @@ sends, such as `WSJT-X - FT-991A`.
 
 > "What is WSJT-X tuned to, and is Tx enabled?"
 
-> "Why isn't anything showing up?" — `jt_diagnostics`
+> "Why isn't anything showing up?"—`jt_diagnostics`
 
 ## Configure your MCP client
 
