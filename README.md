@@ -129,6 +129,6 @@ jt-mcp [--bind ADDR] [--allow ADDR ...] [--udp-port N]
 | `--transport` | `stdio` | `streamable-http` binds 127.0.0.1 only |
 | `--port N` | `8031` | the streamable-http port |
 
-## Licence
+## License
 
 GPL-3.0-or-later. See [LICENSE](LICENSE).
