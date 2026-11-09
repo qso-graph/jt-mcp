@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 - AGENTS.md and CLAUDE.md: the organization's shared agent guide, and this repository's own.
+- README and CHANGELOG name only the programs jt-mcp supports: WSJT-X and JS8Call.
 - README: American spelling, as the QSO Graph style guide asks.
 
 - README: style fixes for the QSO Graph style guide (Google Developer Documentation Style Guide, American English).
@@ -42,10 +43,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - **Renamed from `js8call-mcp` to `jt-mcp`, and the scope is the JT family.**
-  WSJT-X, JTDX, WSJT-Z, MSHV and JS8Call share one UDP protocol and would have
-  meant one listener each across several servers. One server covers them.
+  WSJT-X and JS8Call would have meant one listener each across separate servers.
+  One server covers them.
 
-  **WSJT-X is first, and it defines the protocol** (KI7MT, 2026-10-29): the
+  **WSJT-X is first, and it defines the protocol**: the
   message definitions come from the WSJT-X project, `Network/NetworkMessage.hpp`
   at the schema WSJT-X states, because the project that owns a definition is its
   authority. A variant is supported where it works with those definitions; where
