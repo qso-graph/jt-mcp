@@ -7,13 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
+## [0.2.1] - 2026-11-09
 
+### Changed
 
 - AGENTS.md and CLAUDE.md: the organization's shared agent guide, and this repository's own.
 - README and CHANGELOG name only the programs jt-mcp supports: WSJT-X and JS8Call.
 - README: American spelling, as the QSO Graph style guide asks.
-
 - README: style fixes for the QSO Graph style guide (Google Developer Documentation Style Guide, American English).
 
 ## [0.2.0] — 2026-10-29
