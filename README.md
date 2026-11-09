@@ -16,9 +16,8 @@ constraint, not a first-version limit. The tests assert it against the source.
 WSJT-X project—`Network/NetworkMessage.hpp`, at the schema WSJT-X states—because the project
 that owns a definition is its authority. The code is
 [qso-graph-lib](https://github.com/qso-graph/qso-graph-lib)'s, the same that
-[qso-graph-sim](https://github.com/qso-graph/qso-graph-sim) plays WSJT-X's messages with. JTDX,
-WSJT-Z and MSHV are supported where they work with those definitions, and where one does not, its
-difference is not implemented here. JS8Call, whose API is its own, follows WSJT-X.
+[qso-graph-sim](https://github.com/qso-graph/qso-graph-sim) plays WSJT-X's messages with.
+JS8Call, whose API is its own, follows WSJT-X.
 
 This server was `js8call-mcp` until 2026-10-29. Part of the [qso-graph](https://qso-graph.io/)
 project.
