@@ -7,10 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-11-14
+
 ### Security
 
 - Locked dependencies: dnspython 2.9.2 (CVE-2026-128089) and
   opentelemetry-api 1.45.2 (CVE-2026-126360), both transitive.
+
+### Changed
+
+- jt-mcp is a WSJT-X server: the package docstring, README and test comments no longer name
+  JS8Call, and the README no longer points to qso-graph-sim, which is retired.
 
 ## [0.2.1] - 2026-11-09
 
