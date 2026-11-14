@@ -37,8 +37,8 @@ from jt_mcp import server
 
 ANNOTATION_HINTS = ("readOnlyHint", "destructiveHint", "idempotentHint", "openWorldHint")
 
-# What keying a radio looks like as *code*: the names a call would use, in JS8Call's
-# API and in Hamlib underneath it. Identifiers only — see JS-C10 for why.
+# What keying a radio looks like as *code*: the names a call would use, in a station
+# program's API and in Hamlib underneath it. Identifiers only — see JS-C10 for why.
 TRANSMIT = frozenset({
     "ptt", "set_ptt", "setptt", "transmit", "send_message", "sendmessage",
     "key_down", "keydown", "tx", "set_tx", "start_tx", "send_text",
@@ -108,7 +108,8 @@ class TestTheTransmitterIsNeverKeyed:
         search cannot tell a sentence about a thing from the thing.
 
         Command strings like ``TX.SEND`` are not checked here because they can only
-        reach JS8Call down a socket, and ``JS-C12`` already fails on the first socket.
+        reach a station program down a socket, and ``JS-C12`` already fails on the
+        first socket.
         """
         import ast
 

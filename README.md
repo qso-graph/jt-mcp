@@ -15,12 +15,8 @@ constraint, not a first-version limit. The tests assert it against the source.
 **WSJT-X first, and WSJT-X defines the protocol.** The UDP message definitions come from the
 WSJT-X project—`Network/NetworkMessage.hpp`, at the schema WSJT-X states—because the project
 that owns a definition is its authority. The code is
-[qso-graph-lib](https://github.com/qso-graph/qso-graph-lib)'s, the same that
-[qso-graph-sim](https://github.com/qso-graph/qso-graph-sim) plays WSJT-X's messages with.
-JS8Call, whose API is its own, follows WSJT-X.
-
-This server was `js8call-mcp` until 2026-10-29. Part of the [qso-graph](https://qso-graph.io/)
-project.
+[qso-graph-lib](https://github.com/qso-graph/qso-graph-lib)'s. Part of the
+[qso-graph](https://qso-graph.io/) project.
 
 ## Install
 

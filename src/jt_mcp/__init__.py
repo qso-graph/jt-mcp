@@ -1,4 +1,4 @@
-"""jt-mcp — JS8Call MCP server for HF messaging."""
+"""jt-mcp — MCP server for WSJT-X's UDP messages, read-only."""
 
 from importlib.metadata import PackageNotFoundError
 from importlib.metadata import version as _version
