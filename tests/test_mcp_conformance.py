@@ -108,7 +108,8 @@ class TestTheTransmitterIsNeverKeyed:
         search cannot tell a sentence about a thing from the thing.
 
         Command strings like ``TX.SEND`` are not checked here because they can only
-        reach a station program down a socket, and ``JS-C12`` already fails on the first socket.
+        reach a station program down a socket, and ``JS-C12`` already fails on the
+        first socket.
         """
         import ast
 
